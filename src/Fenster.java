@@ -24,6 +24,8 @@ public class Fenster extends JFrame {
 	public static void main(String[] args){
 		
 		Fenster fenster =new Fenster("Test");
+		Operationen op = new Operationen();
+		System.out.println(op.add(2, 3));
 		fenster.setVisible(true);
 		
 	}
