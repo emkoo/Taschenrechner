@@ -4,8 +4,12 @@ import javax.swing.*;
 
 public class Fenster extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JLabel label;
-	JPanel panel, panel2;
+	JPanel panel, panel2, panel3;
 	String[] zahlen = { "7", "8", "9", "4", "5", "6", "1", "2", "3", "0" };
 
 	Fenster(String titel) {
